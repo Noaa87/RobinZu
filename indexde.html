@@ -21,7 +21,7 @@
 	<body>
 		<div class="container">
 			<header class="clearfix">
-				<nav>
+				<nav id="lang">
 					<a href="index.html">EN</a>
 					<a href="indexde.html">DE</a>
 				</nav>
@@ -138,10 +138,11 @@
 						
 						<div class="map">
 							<div class="address">
-								123 IMAGINARY ST<br>
-								ATLANTTA GA 300314
+								Sobolakova 146/1<br>
+								Praha 4-Kunratice 148 00<br>
+								Praha, Czechia
 							</div>
-							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2483.3288148080587!2d-0.12647869538276754!3d51.50718324995331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spl!2spl!4v1499204108793" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.75974395728!2d14.485736251249843!3d50.015858226363484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b91814ba1ecd1%3A0x1ae41d6df2926baa!2sSobol%C3%A1kova+146%2F1%2C+148+00+Praha-Kunratice%2C+Czechy!5e0!3m2!1spl!2spl!4v1499459373274" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 							<button>Get Directions</button>
 						</div>
 					</section>
@@ -203,6 +204,16 @@
 					  }
 					});
 				});
+
+				$('#navbar a').click(function(){						
+
+					if($(window).width() < 768){
+
+						$('#navbar').collapse("hide");
+					}
+				});
+
+				
 			});
 		</script>
 </body></html>

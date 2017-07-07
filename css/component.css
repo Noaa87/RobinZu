@@ -80,8 +80,9 @@
 
 .tabs-collapse{
 
-	position: absolute;
-    right:10px;
+	position: fixed;
+    top: 20px;
+    right: 10px;
     padding: 9px 12px;
     margin-right: 5px;
     background-color: transparent;
@@ -139,6 +140,7 @@
 	font-size: 20px !important;
 	padding: 0 25px !important;
 }
+
 
 /* Content */
 .content section {
@@ -411,6 +413,7 @@
 	font-size: 15px;
 	color: grey;
 	margin-bottom: 10px;
+	text-transform: uppercase;
 }
 
 #section-5 iframe{
@@ -516,6 +519,34 @@
 	.tabs-collapse{
 
 	    display: initial;
+	    z-index: 2;
+	}
+
+	.logo{
+
+		text-align: center;
+	}
+
+	#lang{
+
+		position: absolute;
+	    top: 20px;
+	    left: 10px;
+	    text-align: left;
+	    margin: 0;
+	    width: 67px;
+	}
+
+	#navbar{
+
+		width: 100%;
+		height: 100% !important;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background-color: white;
+		z-index: 1;
+		padding-top: 40%;
 	}
 
 	.mediabox {
