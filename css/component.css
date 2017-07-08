@@ -500,6 +500,28 @@
 	.tabs nav li {
 		
 		float:initial !important;
+		border: none !important;
+		box-shadow: none !important;
+		text-transform: uppercase;
+		margin-bottom: 30px !important;
+		font-size: 20px !important;
+		border-radius: 50px !important;
+	}
+
+	.tabs nav li:hover{
+		
+		background-color: #ADDFFF !important;
+	}
+
+	.tabs nav li a:hover{
+		
+		text-decoration: none;
+	}
+
+	.navbar-social a:hover{
+
+		border-radius: 100px;
+		background-color: #ADDFFF !important;
 	}
 
 	.tabs nav ul li {
@@ -546,7 +568,7 @@
 		left: 0;
 		background-color: white;
 		z-index: 1;
-		padding-top: 40%;
+		padding-top: 20%;
 	}
 
 	.mediabox {
