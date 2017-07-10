@@ -495,7 +495,7 @@
 
 /* Example media queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
 	.tabs nav li {
 		
@@ -639,6 +639,7 @@
 	}
 
 }
+
 
 @media screen and (max-width: 32em) {
 
