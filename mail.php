@@ -2,7 +2,7 @@
 
 	if(isset($_POST['name'])){
 
-		$to      = '';
+		$to      = 'contact@budecon-ba.com';
 		$subject = 'Contact';
 		$message = 'Name: ' . $_POST['name'] . PHP_EOL . 
 		'Email: ' . $_POST['email'] . PHP_EOL . 
